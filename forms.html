@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <form>
+            <fieldset id="b">
+                <legend>Personal Details</legend>
+                Name: <input type="text" placeholder="Enter Name Here"><br>
+                <br/>
+                Address: <input type="text" placeholder="Enter Address Here"><br><br/>
+                Email: <input type="email" placeholder="Enter email here"><br><br/>
+                Phone Number: <input type="tel" placeholder="enter your phone number"><br><br/>
+                IQ: <input type="number" placeholder="enter IQ here"><br><br/>
+                Gender: <br><br/>
+                <input type="radio" name="Gender">Male<br>
+                <input type="radio" name="Gender">Female<br>
+                <input type="radio" name="Gender">Other<br><br/>
+                Date of Proposal Outing: <input type="date" placeholder="dd-mm-yyyy">
+
+            </fieldset>
+            <fieldset id="b">
+                Check All that Apply<br><br/>
+                <input type="checkbox" >I have tattoos and/or piercings<br>
+                <input type="checkbox"> I am more than 2yrs older than my daughter<br>
+                <input type="checkbox"> I own a panel van or v8 uts<br>
+                <input type="checkbox"> I work full-time<br>
+                <input type="checkbox"> My parents are rich<br>
+                <input type="checkbox"> Is the date at a well lit public location<br>
+            </fieldset>
+            <fieldset id="b">
+                Political Persuasion:<select>
+                    <option>left wing</option>
+                    <option>right wing</option>
+                </select>
+                Education level completed:<select>
+                    <option>university</option>
+                    <option>diploma</option>
+                    <option>high school</option>
+                </select>
+            
+            </fieldset>
+            <fieldset id="b">
+                <legend>Essay Section</legend>
+                In 50wrds or more explain why you want to date my daughter<br><br/>
+                <textarea cols="30" rows="4" placeholder="enter text here"></textarea>
+                <br><br/>
+                please upload contact details for 2 references<br><br/>
+                <textarea cols="30" rows="4" placeholder="enter text here"></textarea><br><br/>
+                Upload policy clearance certificate, bank statement and medical certificates here:
+                <input type="file" id="actual-btn" hidden/>
+                <label for="actual-btn">Attach Files</label>
+            </fieldset>
+            <input type="submit" value="Send your application" id="b1">
+    </form>
+</body>
+</html>
