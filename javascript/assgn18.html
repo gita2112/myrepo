@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function op(){
+            let a=document.getElementById("inp1").value;
+            let b=document.getElementById("inp2").value;
+            if(a==50||b==50||(a+b)==50){
+               document.write("true");
+            }
+            else{
+                document.write("false");
+            }
+            
+
+        }
+        </script>
+    </head>
+    <body>
+        <input type="number" id="inp1" placeholder="inp1">
+        <input type="number" id="inp2" placeholder="inp2">
+        <input type="button" onclick="op()" value="perform">
+        
+    </body>
+</html>

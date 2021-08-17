@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function string(){
+        let str=document.getElementById("str").value;
+        let s1=str.substr(0,2);
+        let s2="Py"
+        if(s1==s2){
+            document.write(str);
+        }
+        else{
+            document.write(s2.concat(str));
+        }
+    }
+
+        </script>
+    </head>
+<body>
+    <input type="text" id="str" placeholder="inp1">
+<input type="button" onclick="string()">
+</body>
+</html>

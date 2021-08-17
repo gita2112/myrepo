@@ -1,0 +1,52 @@
+body {
+    color: rgb(19, 14, 14);
+    background: #63738a;
+    font-family: 'Roboto', sans-serif;
+   }
+   .container{
+       background-color:#969fa4;
+       width: 406px;
+       height: 430px;
+       margin-left: 20px;
+       border: 3px solid black;
+       position: absolute;
+       margin-top: 20px;
+       
+   }
+   footer{
+    
+    text-align: center;
+    color: black;
+    padding-top: 460px;
+   }
+   #btn{
+    background-color: #5cb85c;
+    padding: 2px;
+    text-transform:uppercase ;
+    margin-left: 125px;
+   }
+   .box{
+    background-color: #fff;
+    height: 486px;
+    width: 446px;
+    margin-left: 430px;
+    margin-top: 40px;
+    position: relative;
+   }
+   .container a{
+       color: green;
+   }
+   .container input [type="checkbox"]{
+       color: hotpink;
+   }
+   #fname, #lname{
+       
+       padding: 2px;
+    margin: 1px;
+   }
+   #fullbox{
+       width:363px;
+
+   }
+
+   

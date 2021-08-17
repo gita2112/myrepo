@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        var brk="<br>";
+       function op(){
+           let a= document.getElementById("inp1").value;
+           let b=document.getElementById("inp2").value;
+           const mul=a*b;
+           const div=a/b;
+           document.write("product is:",mul,brk,"division is:",div);
+       }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="inp1" placeholder="enter an integer">
+        <input type="text" id="inp2" placeholder="enter an integer">
+        <input type="button" onclick="op()" value="calculate">
+    </body>
+    
+</html>

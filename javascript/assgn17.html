@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function op(){
+            let a= document.getElementById("num").value;
+            if(a>19){
+                const diff=a-19;
+                const sqr=diff**2;
+                //Math.sqr(diff);
+                document.getElementById("demo").innerHTML=sqr;
+            }
+
+        }
+        </script>
+    </head>
+    <body>
+        <input type="number" id="num">
+        <input type="button" onclick="op()">
+        <h1 id="demo"> </h1>
+    </body>
+</html>

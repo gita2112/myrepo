@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+       function celtofar(){
+           let a=document.getElementById("inp1").value;
+           const res=(9*a)/5+32;
+           document.write("the temp in fahrenite is",res);
+       }
+       function fartocel(){
+           let b=document.getElementById("inp2").value;
+           const res=(5*(b-32))/9;
+           document.write("the temp in celsius is",res);
+       }
+        </script>
+    </head>
+    <body>
+        celsius<input type="text" id="inp1" placeholder="enter temp in celsius">
+        <input type="button" onclick="celtofar()" value="celsius to fahrenite"><br><br/>
+        fahrenite<input type="text" id="inp2" placeholder="enter temp in fahrenite">
+        <input type="button" onclick="fartocel()" value="fahrenite to celsius">
+    </body>
+    
+</html>

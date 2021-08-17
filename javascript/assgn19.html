@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function op(){
+            const a= document.getElementById("inp1").value;
+            const b= document.getElementById("inp2").value;
+            if (Math.sign(a)==1){
+                document.getElementById("demo").innerHTML="a is pos"
+            }
+            else{
+                document.getElementById("demo").innerHTML="a is neg"
+            }
+            if (Math.sign(b)==1){
+                document.getElementById("demo").innerHTML="b is pos"
+            }
+            else{
+                document.getElementById("demo").innerHTML="b is neg"
+            }
+        }
+       
+        </script>
+    </head>
+    <body>
+        <input type="number" id="inp1" placeholder="inp1">
+        <input type="number" id="inp2" placeholder="inp2">
+        <input type="button" onclick="op()" value="perform">
+        <h1 id="demo"></h1>
+    </body>
+</html>

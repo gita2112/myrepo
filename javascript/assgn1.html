@@ -1,0 +1,28 @@
+<html>
+   <head>      
+      <script type = "text/javascript">
+               var dt= new Date();
+               var brk ="<br>";
+               const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+               //document.write(dt);
+               //const dy= new Date().getDay;
+               document.write("Today is:",days[dt.getDay()]);
+               document.write(brk);
+               //const tt= new Date().getTime;
+               if(dt.getHours>12){
+                  var a="PM"
+               }
+               else{
+                  var a="AM"
+               }
+               document.write("current time is:",dt.getHours(),a,":",dt.getMinutes(),":",dt.getSeconds());
+            
+         
+      </script>     
+   </head>
+   
+   <body>
+    
+      
+   </body>  
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        // let cnt=0;
+       let dt= new Date();
+       let yr=dt.getFullYear();
+       let targetdt= new Date(yr+1,11,25);
+    //    while(dt<=targetdt){
+    //        cnt++;
+    //    }
+    let time=targetdt.getTime()-dt.getTime();
+    let days= time/(1000*60*60*24);
+    let res=Math.round(days+1)
+       document.write(res);
+        </script>
+    </head>
+    
+    
+</html>

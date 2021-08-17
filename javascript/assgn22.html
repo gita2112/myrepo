@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        let brk="<br>"
+        function op(){
+            let s1= document.getElementById("inp1").value;
+            let num=document.getElementById("inp2").value;
+            let s2=s1.slice(0,num-1);
+            document.write(s2);
+            document.write(brk);
+            let s3=s1.slice(num+1);
+            document.write("  ",s3);
+            let s4=s2.concat(s3);
+            document.write(s4);
+        }
+       
+        </script>
+    </head>
+    <body>
+        <input type="text" id="inp1" placeholder="inp1">
+        <input type="number" id="inp2" placeholder="inp1">
+        <input type="button" onclick="op()" value="perform">
+        
+    </body>
+</html>
